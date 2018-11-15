@@ -1,0 +1,365 @@
+/* 221D1C */
+/* D4D3CE */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@-ms-viewport {
+	width: device-width;
+	height: device-height;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #221D1C;
+}
+
+html {
+	color: #221D1C;
+	background-color: #FAF9ED;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/*Header*/
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/SkillsUSAPhoto.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: #ccc;
+	margin: 0 auto;
+	text-transform: uppercase;
+	transition: all 1s ease;
+}
+
+header.home {
+	height: 100vh;
+}
+
+#main {
+	display: none;
+	opacity: 0;
+	transition: all 1s ease;
+}
+.hero_text {
+	padding: 10% 0px;
+	text-align: center;
+}
+
+#homebtn {
+	border-radius: 25em;
+	font-size: 120%;
+	border: none;
+	width: 15%;
+	padding: 2%;
+	background-color: #FAF9ED;
+	transition: 0.2s ease;
+}
+
+#homebtn:hover, #homebtn:active {
+	color: #fff;
+	background-color: #000;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	margin: 20px auto 20px auto;
+}
+
+h1 {
+	font-size: 300%;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 200%;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 150%;
+}
+
+hr{
+	width: 20%;
+	border: 5px solid #F0D5CF;
+	border-radius: 25em;
+	margin: 20px auto 20px auto;
+	color: #D4D3CE;
+}
+
+p {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.top-nav {
+	text-align: right;
+	height: 20%;
+	width: 100%;
+	font-size: 100%;
+	margin: 20px 700px 0px 0px;
+	float: left;
+}
+
+.top-nav ul {
+	float: right;
+	list-style-type: none;
+}
+
+.top-nav li {
+	float: left;
+}
+
+.top-nav a {
+	padding: 10px;
+	color: #ccc;
+	transition: color 0.5s;
+}
+
+.top-nav a:hover {
+	color: #fff; 
+}
+
+.top-nav .icon {
+	display: none;
+	font-size: 75%;
+	float: left;
+}
+
+.work-nav {
+	height: 5vh;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	background-color: #221D1C;
+	color: white;
+}
+
+
+/* Resume */
+#resume {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+embed {
+	height: 400px;
+	width: 80%;
+}
+
+video {
+	height: 200px;
+	width: 70%;
+}
+
+.skillsContainer {
+	width: 100%;
+	background-color: #ccc;
+	text-align: left;
+}
+
+.skills {
+	text-align: right;
+	padding-right: 20px;
+	line-height: 40px;
+	font-weight: 500;
+}
+
+.HTML{width: 90%; background-color: #50CD1D}
+.CSS{width: 75%; background-color: #1C97CA}
+.JavaScript{width: 50%; background-color: #F01717}
+.Powerpoint{width: 70%; background-color: #F06617}
+.Excel{width: 70%; background-color: #14B804}
+.Access{width: 80%; background-color: #CD0000}
+
+/* About Me */
+
+#about-me {
+	background-repeat: no-repeat; 
+	background-size: cover;
+	text-align: center;
+}
+
+#about-me h2 {
+	padding: 10px;
+}
+
+#about-me h3 {
+	padding: 10px;
+	font-size: 150%;
+}
+
+/* My Work */
+
+#adobe {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/adobe.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 50vh;
+	color: #fff;
+}
+
+.adembed {
+	width: 52%;
+}
+
+#microsoft {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Office.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 50vh;
+	color: #fff;
+}
+
+.microembed embed {
+	height: 250px;
+	width: 80%;
+}
+
+.adobeembed embed {
+	width: 80%;
+	height: 9em;
+	overflow: hidden;
+}
+
+#webdesign {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/WebDesign.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 50vh;
+	color: #fff;
+}
+
+#server {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Server.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 50vh;
+	color: #fff;
+	
+}
+
+#hardware {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Hardware.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 50vh;
+	color: #fff;
+}
+
+.website {
+	height: 500px;
+	width: 80%;
+	border: 1px solid black;
+}
+
+
+.container {
+	text-align: center;
+	margin: 50px 0 50px 0;
+	width: 100%;
+}
+
+.caption {
+	font-size: 80%;
+	font-weight: 300;
+}
+
+.container img {
+	height: 200px;
+}
+
+form {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+
+input {
+	height: 5vh;
+	font-size: 100%;
+}
+
+.message {
+	width: 100%;
+}
+
+footer {
+	height: 5vh;
+	background-color: #000;
+	color: #fff;
+	margin: 0 auto;
+	display: none;
+}
+
+.contactfooter {
+	text-align: center;
+	width: 100%;
+}
+
+.contactfooter input {
+	height: auto;
+	padding: 0;
+	color: #fff;
+	background-color: #000;
+	border: none;
+}
+
+.formbtn {
+	margin: 0 5em;
+}
+
+.socialmedia {
+	width: 80%;
+}
+
+.socialmedia ul {
+	list-style-type: none; 
+}
+.socialmedia li {
+	float: left;
+	margin: 0px 2%;
+}
+
+.social {
+	color: #fff;
+	font-size: 120%;
+}
+
+.facebook:hover {
+	color: #4267b2;
+}
+
+.instagram:hover {
+	color: #c32aa3
+}
+
+.snapchat:hover {
+	color: #fffc00;
+}
+
+
+
+
+
+

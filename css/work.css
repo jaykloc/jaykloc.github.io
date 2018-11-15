@@ -1,0 +1,50 @@
+header {
+	/*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/20180920_081956.jpg");*/
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ccc;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+div.downloadbtn button {
+	font-size: 200%;
+	width: 10%;
+}
+.work {
+	display: none;
+	width: 0;
+	overflow: hidden;
+	transition: all 0.2s ease;
+}
+
+#adobeWork {
+	display: block;
+	width: 100%;
+}
+
+.wrklink {
+	float: left;
+	display: inline-block;
+	border: none;
+	border-right: 1px solid white; 
+	background-color: #E5E5E5;
+	width: 20%;
+	height: 100%;
+	margin: auto;
+	font-size: 100%;
+	text-transform: uppercase;
+	transition: all 0.6s ease;
+}
+
+.wrklink:hover, .wrklink:active {
+	background-color: #FAF9ED;
+	color: #221D1C;
+	border: none;
+}
+
+.active {
+	background-color: #FAF9ED;
+	color: #221D1C;
+}
