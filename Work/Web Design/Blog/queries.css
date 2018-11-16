@@ -1,0 +1,39 @@
+@media screen and (max-width: 1000px) {
+
+	html {
+		font-size: 15px
+	}
+	.left {
+		float: none;
+		width: 100%
+	}
+
+	.right {
+		float: none;
+		width: 100%;
+	}
+
+	.profilepic {
+		height: 40vh;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	html {
+		font-size: 10px
+	}
+
+	.profile {
+		float: right;
+		width: 20%;
+	}
+	.profilepic {
+		height: 20vh;
+	}
+	.popular {
+		float: right;
+		width: 75%;
+	}
+
+}

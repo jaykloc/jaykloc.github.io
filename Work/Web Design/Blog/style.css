@@ -1,0 +1,140 @@
+*  {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Raleway', san-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+body {
+	background: #FEF7EC;
+}
+
+p {
+	font-size: 80%;
+}
+
+h1 {
+	font-weight: 500;
+}
+
+#header {
+	text-align: center;
+	height: 15vh;
+	-ms-height: 10vh;
+}
+
+#herotext {
+	padding: 20px 0px;
+}
+
+.left {
+	float: left;
+	width: 65%;
+	margin: 20px 0px;
+}
+
+.articlepreview {
+	margin: 20px 10px;
+	background: #fff;
+	box-shadow: 10px 10px 10px #ccc;
+}
+
+/*.articlepreview * {
+	margin: 5px 5px;
+}*/
+
+.articlepreview button {
+	border: solid 1px #ccc;
+	padding: 10px 10px;
+	margin: 10px 10px;
+	font-size: 80%;
+	background: #fff;
+	transition: all 0.2s;
+}
+
+.articlepreview button:hover {
+	background: #ccc;
+}
+
+.headerimg {
+	height: 30vh;
+	width: 100%;
+}
+
+.right {
+	float: right;
+	width: 30%;
+	margin: 20px 20px 20px 0px;
+}
+
+.profile {
+	background: #fff;
+	margin: 20px 0px;
+	width: 100%;
+	box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+.profile h3, p {
+	margin: 10px 5px;
+}
+
+.profilepic {
+	width: 100%;
+	height: 30vh;
+}
+
+.popular {
+	background: #fff;
+	box-shadow: 5px 5px 5px #ccc;
+}
+
+.popular h3 {
+	background: #FDF7ED;
+	padding: 20px 10px;
+}
+
+.pposts {
+	padding: 10px 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.pposts:hover {
+	background: #ccc
+}
+
+.footer {
+	float: left;
+	background: #ccc;
+	height: 10vh;
+	padding: 0;
+	-ms-height: 10vh;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.navbtns {
+	position: inherit;
+}
+
+.navbtns button {
+	border: none;
+	padding: 10px;
+	font-weight: 300;
+	font-size: 100%;
+}
+
+.next {
+	background: #000;
+	color: #fff;
+	transition: all 0.1s;
+}
+
+.next:hover {
+	background: #ccc;
+	color: #000;
+}
