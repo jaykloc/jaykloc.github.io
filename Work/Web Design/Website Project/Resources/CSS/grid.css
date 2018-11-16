@@ -1,0 +1,29 @@
+/* Columns */
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.col-1-of-3 {
+	width: 33%;
+	float: left;
+}
+.col-1-of-3 p {
+	font-weight: 300;
+}
+
+.col-1-of-2 {
+	float: left;
+	width: 50%;
+}
+
+.col-1-of-4 {
+	width: 25%;
+	float: left;
+}
+
+.col-1-of-1 {
+	width: 50%;
+	text-align: center;
+}

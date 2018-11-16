@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px; 
+}
+body {
+	background: #000;
+	color: #fff;
+}
+
+#sidenav {
+	height: 100vh;
+	background: #ccc;
+	width: 20vh;
+	color: #ccc;
+	display: block;
+	text-align: center;
+	float: left;
+	position: fixed;
+}
+
+#sidenav button{
+	border: none;
+	width: 100%;
+	padding: 10px;
+	background: #ccc; 
+	text-transform: uppercase;
+	font-size: 80%;
+	font-weight: 100;
+	transition: all 0.2s;
+}
+
+#sidenav button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#sidenav a {
+	color: #000;
+	text-decoration: none;
+	transition: all 0.2s
+}
+
+#sidenav button.active a {
+	color: #fff;
+}
+
+#sidenav .active {
+	background-color: #000;
+	color: #fff;
+}
+
+#sidenav img {
+	height: 15%;
+	width: 110%;
+}
+
+#sidenav .nav {
+	font-size: 300%;
+}
+
+#topnav {
+	display: inline-flex;
+	width: 100%;
+	height: 5vh;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#topnav ul {
+	list-style: none;
+	text-align: center;
+}
+
+#topnav li {
+	float: left;
+	padding: 10px;
+}
+
+#topnav a {
+	color: #000;
+	text-decoration: none;
+}
+
+.port-img {
+	height: 80vh;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.port-img h1 {
+	margin: 0 auto;
+	padding-top: 20px;
+	font-size: 300%;
+}
+
+.port-img img{
+	height: 100%;
+	width: 50%;
+}
+
+
+

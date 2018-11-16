@@ -1,0 +1,40 @@
+@media screen and (max-width: 760px) {
+  header {
+  	height: 20vh;
+  }
+
+  html {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 250%;
+    padding-top: 10%;
+  }
+
+  header img {
+  	height: 70px;
+  }
+}
+
+
+
+@media screen and (max-width: 680px) {
+  html {
+    font-size: 10px;
+  }
+  header img {
+    height: 30px;
+  }
+
+}
+@media screen and (max-width: 680px) {
+  html {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 5px;
+  }
+}
