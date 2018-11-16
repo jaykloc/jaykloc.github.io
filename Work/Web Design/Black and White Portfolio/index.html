@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dark Portfolio</title>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="queries.css">
+	<link rel="stylesheet" type="text/css" href="ionicons-2.0.1/css/ionicons.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,300i,400,500,500i,700,900" rel="stylesheet">
+	<link href="queries.css" rel="stylesheet">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+	<div id="sidenav">
+		<a href="javascript:void(0)"><button id="sideClose"><i class="ion-close-round"></i><br>Close</button></button></a>
+		<a href="header" class="navBtn"><button class="navBTN"><i class="ion-android-home nav"></i><br>Home</button></a>
+		<a href="#about" class="navBtn"><button class="navBTN"><i class="ion-android-person nav"></i><br>About</button></a>
+		<a href="#photos" class="navBtn"><button class="navBTN"><i class="ion-camera nav"></i><br>Photos</button></a>
+		<a href="#pricing" class="navBtn"><button class="navBTN"><i class="ion-social-usd nav"></i><br>Pricing</button></a>
+		<a href="#contact" class="navBtn"><button class="navBTN"><i class="ion-email nav"></i><br>Contact</button></a>
+	</div>
+	<div id="sideMenu">
+		<button id="sideOpen"><i class="ion-navicon-round"></i><br>Open</button>
+	</div>
+	<div id="top_nav">
+		<a href="javascript:void(0)"><button id="topClose"><i class="ion-close-round"></i></button></button></a>
+		<a href="header" class="navBtn"><button class="navBTN"><i class="ion-android-home nav"></i><br>Home</button></a>
+		<a href="#about" class="navBtn"><button class="navBTN"><i class="ion-android-person nav"></i><br>About</button></a>
+		<a href="#photos" class="navBtn"><button class="navBTN"><i class="ion-camera nav"></i><br>Photos</button></a>
+		<a href="#pricing" class="navBtn"><button class="navBTN"><i class="ion-social-usd nav"></i><br>Pricing</button></a>
+		<a href="#contact" class="navBtn"><button class="navBTN"><i class="ion-email nav"></i><br>Contact</button></a>
+	</div>
+	<div id="topMenu">
+		<button id="topOpen"><i class="ion-navicon-round"></i></button>
+	</div>
+	<div id="main">
+		<header>
+				<h1>Dennis Benson</h1>
+				<h2>Photographer</h2>
+		</header>
+
+		<section id="about">
+			<h2>Dennis Benson</h2><hr>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nisi ipsum, facilisis at nisi semper, iaculis congue urna. Nulla sed massa mollis purus mattis ullamcorper rhoncus eget felis. Aenean commodo mattis turpis, a fermentum nunc sodales posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent eu pretium odio, vel sodales dolor. Etiam vitae rhoncus lorem. Curabitur consequat neque neque, ut accumsan nunc laoreet et. Aenean eu auctor nisl. Integer lobortis, nulla at dapibus accumsan, purus mi varius mauris, eu egestas metus quam id neque. Aliquam nec metus a augue malesuada ultrices. Maecenas id dictum tellus, vel congue nunc. Proin posuere rhoncus est hendrerit feugiat. Ut nec velit accumsan, suscipit nunc id, interdum mauris. Vestibulum pulvinar eget elit eu ultricies. Ut eros sapien, ultrices vel nunc et, finibus rhoncus libero. My skills include:
+			</p>
+			<p>Photography</p>
+			<div class="skillContainer">
+				<div class="skills photo">95%</div>
+			</div>
+			<p>Photoshop</p>
+			<div class="skillContainer">
+				<div class="skills phtshop">80%</div>
+			</div>
+		</section>
+
+		<h2>Photos</h2><hr>
+		<section id="photos">
+			<div id="myModal">
+				<span id="modalClose">&times;</span>
+				<img class="modal" id="modalImg">
+			</div>
+			<div id="photoContainer">
+				<img src="Images/flower.jpg" class="thumbnail">
+				<img src="Images/park.jpg" class="thumbnail">
+				<img src="Images/goose.jpg" class="thumbnail">
+			</div>
+		</section>
+
+		<section id="pricing">
+			<h2>My Prices</h2>
+			<hr>
+			<div class="pricing-col">
+				<h3>Basic</h3>
+				<p>Photography</p>
+				<p>Color Correction</p>
+				<p>5GB Storage</p>
+				<p class="price"><span>$50</span><br>per hour</p>
+				<p class="signup"><button>Sign Up</button></p>
+			</div>
+			<div class="pricing-col">
+				<h3>Pro</h3>
+				<p>Photography</p>
+				<p class="longer">Full Photoshop support</p>
+				<p class="shorter">Full Support</p>
+				<p>50Gb Support</p>
+				<p class="price"><span>$100</span><br>per hour</p>
+				<p class="signup"><button>Sign Up</button></p>
+			</div>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<hr>
+			<i class="ion-location"></i> Location:<br>
+			123 Lane Avenue<br>
+			<i class="ion-android-call"></i> Phone:<br>
+			(800)-123-4567<br>
+			<i class="ion-email"></i> Email:<br>
+			mail@mailto.com<br>
+		</section>
+	</div>
+	<footer>
+		
+	</footer>
+</body>
+</html>

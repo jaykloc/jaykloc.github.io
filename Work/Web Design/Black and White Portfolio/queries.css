@@ -1,0 +1,53 @@
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+		text-align: center;
+	}
+
+	header h1, header h2 {
+		display: none;
+	}
+
+	#sidenav {
+		display: none;
+	}
+
+	#sideOpen {
+		display: none;
+	}
+
+	#topMenu{
+		display: block;
+		text-align: center;
+		font-size: 200%;
+	}
+
+	#top_nav {
+		display: block;
+		font-size: 200%
+	}
+
+	#main {
+		width: 100%;
+	}
+
+	#modalClose {
+		position: inherit;
+	}
+
+	.thumbnail {
+		height: 100px;
+	}
+
+	.shorter {
+		display: block;
+	}
+
+	.longer {
+		display: none;
+	}
+
+	#contact {
+		text-align: left;
+	}
+} 

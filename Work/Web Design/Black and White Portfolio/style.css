@@ -1,0 +1,436 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px; 
+}
+body {
+	background: #000;
+	color: #ccc;
+	transition: 0.3s;
+	margin: 0 auto;
+}
+
+header {
+	background: url("blkwte.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	display: block;
+}
+
+header h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 100%;
+	font-weight: 100;
+}
+
+h2 {
+	text-align: left;
+}
+
+hr {
+	width: 30%;
+	margin: 10px 0px 10px 0px;
+}
+
+
+#about, #price, #photos, #contact {
+	margin-top: 50px;
+}
+
+/* Navbar */
+
+#main {
+	width: 70%;
+	margin: 0 auto;
+	transition: 0.3s;
+	z-index: -1;
+}
+
+#sideMenu{
+	height: 100vh;
+	-ms-height: 100vh;
+	width: 15%;
+	float: left;
+	position: fixed;
+}
+
+#sideOpen {
+	border: none;
+	width: 100%;
+	height: 5%;
+	padding: 10px;
+	background: #ccc; 
+	text-transform: uppercase;
+	font-size: 80%;
+	font-weight: 150;
+	transition: all 0.2s;
+}
+
+#sideOpen:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#sidenav {
+	height: 100vh;
+	background: #ccc;
+	overflow-x: hidden;
+	width: 0;
+	color: #ccc;
+	text-align: center;
+	float: left;
+	position: fixed;
+	transition: all 0.3s;
+	z-index: 2;
+}
+
+#sidenav button{
+	border: none;
+	width: 100%;
+	height: 19%;
+	display: block;
+	padding: 10px;
+	background: #ccc; 
+	text-transform: uppercase;
+	font-size: 80%;
+	font-weight: 150;
+	transition: all 0.4s;
+}
+
+#sidenav button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#sidenav a {
+	color: #000;
+	text-decoration: none;
+	transition: all 0.4s;
+}
+
+#sidenav button.active a {
+	color: #fff;
+}
+
+#sidenav button#sideClose {
+	border: none;
+	height: 5%;
+	width: 100%;
+	display: block;
+	padding: 10px;
+	background: #ccc; 
+	text-transform: uppercase;
+	font-size: 80%;
+	font-weight: 150;
+	transition: all 0.4s;
+}
+
+#sidenav button#sideClose:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#sidenav .home {
+	background-color: #000;
+	color: #fff;
+}
+
+#sidenav img {
+	height: 15%;
+	width: 110%;
+}
+
+#sidenav .nav {
+	font-size: 300%;
+}
+
+/* Top Nav for Modile Page */
+
+#topMenu {
+	width: 100%;
+	height: 5vh;
+	display: none;
+	text-align: center;
+	position: fixed;
+	float: left;
+	z-index: 1;
+}
+
+#topOpen {
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.2s;
+}
+
+#topOpen:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#top_nav {
+	display: none;
+	overflow-y: hidden;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	height: 0;
+	background-color: #ccc;
+	transition: 0.3s;
+	z-index: 2;
+}
+
+#top_nav a {
+	width: 20%;
+}
+
+#top_nav button {
+	width: 100%;
+	height: 18%;
+	background-color: #ccc;
+	color: #000;
+	border: none;
+	font-size: 150%;
+	transition: all 0.2s;
+}
+
+#top_nav .home {
+	background-color: #000;
+	color: #fff;
+}
+#top_nav button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#top_nav button#topClose {
+	font-size: 80%;
+	border: none;
+	height: 10%;
+}
+
+#top_nav button#topClose:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+
+/* About Me */
+
+#about {
+	width: 100%;
+	position: relative;
+	height: auto;
+}
+
+.skillContainer {
+	width: 100%;
+	background: #fff;
+	text-align: left;
+}
+
+.skills {
+	text-align: right;
+	padding-right: 20px;
+	line-height: 40px;
+}
+
+.photo {width: 95%; background-color: #aaa;}
+.phtshop {width: 80%; background-color: #aaa;}
+
+/* Photos */
+
+#photos {
+	width: 100%;
+	margin: 0 auto;
+}
+#photoContainer {
+	text-align: center;
+	margin: 0 auto;
+	height: 70%;
+}
+
+#myModal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb("0, 0, 0");
+	background-color: rgba("0,0,0,0.9");
+}
+
+.modal {
+	margin: auto;
+	display: block;
+	width: 80%;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from{transform: scale(0)}
+	to{transform: scale(1)}
+}
+
+.thumbnail {
+	display: inline-block;
+	height: 220px;
+	width: 30%;
+	margin: 10px 5px 5px 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	opacity: 0.7;
+	transition: 0.3s;
+}
+
+.thumbnail:hover {
+	opacity: 1;
+	border: #fff;
+}
+
+#modalClose {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+/* Pricing */
+
+#pricing {
+	margin: 0 auto;
+	display: inline;
+}
+
+.pricing-col {
+	background-color: #fff;
+	color: #000;
+	margin: 0 auto;
+	text-align: center;
+	width: 45%;
+	height: 100%;
+	font-size: 100%;
+	text-transform: uppercase;
+	border: 1px solid grey;
+	opacity: 0.5;
+	margin: 5px 5px 5px 0px;
+	position: relative;
+	float: left;
+	transition: 0.1s all ease;
+}
+
+.pricing-col {
+	cursor: context-menu;
+}
+
+.pricing-col:hover {
+	opacity: 1;
+}
+
+.pricing-col h3 {
+	padding: 20px;
+	background-color: #ccc;
+	color: #000;
+	font-size: 200%;
+	font-weight: 300;
+}
+
+.pricing-col * {
+	border: 1px solid #fff;
+	padding: 10px;
+	font-weight: 100;
+}
+
+.pricing-col button{
+	border: none;
+	border-radius: 10px;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.pricing-col button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.shorter {
+	display: none;
+}
+
+.price {
+	padding: 30px;
+	text-transform: lowercase;
+}
+
+.price span {
+	font-size: 200%;
+}
+
+/* Contact */
+
+#contactForm {
+	width: 50%;
+	margin: 0 auto;
+	border: solid 1px white;
+	background: #ccc;
+	color: #000;
+}
+
+input {
+	width: 100%;
+	height: 30px;
+	margin: 10px 0px;
+	background: #fff;
+}
+
+#contactForm button {
+	width: 30%;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	background: #fff;
+	font-weight: 300;
+	transition: 0.1s
+}
+
+#contactForm button:hover {
+	background: #000;
+	color: #fff;
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+	background: #ccc;
+}
+
+
+
