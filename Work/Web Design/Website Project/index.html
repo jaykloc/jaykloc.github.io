@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>Divine Desgins</title>
+	<link rel="stylesheet" type="text/css" href="Resources\CSS\style.css">
+	<link rel="stylesheet" type="text/css" href="Resources\CSS\grid.css">
+	<link rel="stylesheet" type="text/css" href="Resources\CSS\queries.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,500i,700,900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Resources/CSS/ionicons-2.0.1/css/ionicons.css">
+	<!-- <script type="text/javascript" src="Resources\JavaScript\slideshow.js"></script> -->
+	<script type="text/javascript" src="Resources\JavaScript\jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="Resources\JavaScript\jquery.js"></script>
+	<script type="text/javascript" src="Resources\JavaScript\scroll.js"></script>
+	<link rel="shorcut icon" type="image/x-icon" href="Resources\Images\Logo.ico">
+</head>
+<body>
+	<header>
+		<nav>
+		<div id="top-nav">
+			<span class="separation">|</span>
+			<button><a href="header" class="scrollLink">Home</a></button> <span class="separation">|</span>	
+			<button><a href="#about" class="scrollLink">About</a></button>	<span class="separation">|</span>
+			<button><a href="#services" class="scrollLink">Services</a></button> <span class="separation">|</span>	
+			<button><a href="#contact" class="scrollLink">Contact</a></button>
+			<span class="separation">|</span>
+		</div>
+	</nav>
+		<h1>Divine <img src="Resources/Images/Logo.png"> Designs</h1>
+		<h2>Designs fit for a God</h2>
+	</header>
+	<section id="about">
+		<h2>About Us</h2>
+		<p class="col-1-of-1">
+			Divine Designs is a web development company
+			stationed in Middletown CT. Our owner, Jazer
+			Lockhart, studied web design and other IT 
+			services at Vinal Technical High School in
+			Middletown, CT. He continued his studies at 
+			blah blah college. He has now devoted his time
+			to  helping those with even the smallest business
+			get a kickstart by starting a website. 
+		</p>
+</section>
+<section id="services">
+	<hr>
+	<h2>Services</h2>
+	<p class="col-1-of-1">
+		Photographer looking for an online portfolio?
+		New band looking for a way to get your name 
+		out there? Game designer looking to promote
+		your new game? New business trying to sell
+		your merchandise online. <strong>No problem!</strong>
+		We can help you out with that. You can look through
+		some of our previous projects down below.
+	</p>
+	<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <a href="Resources/WebPages/blkwht.html"><img src="Resources/Images/blkwte.png">
+</div>
+
+<div class="mySlides fade">
+  <a href="Resources/WebPages/WEBSITE2016.html"><img src="Resources/Images/band.png"></a>
+</div>
+
+<div class="mySlides fade">
+  <img src="Resources/Images/Capture.png">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	<div class="dotts">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</div>
+</section>
+
+<hr>
+
+<section id="contact">
+	<h2>Contact Us</h2>
+	<p class="col-1-of-1">
+		You can come on down to 132 Baldwin Ave
+		in Middletown, CT if your in the area.
+		You can also call us at (860)-852-3453. 
+	</p>
+</section>
+<script type="text/javascript">
+	var slideIndex = 1;
+	var prev = document.getElementsByClassName("prev")
+	var next = document.getElementsByClassName("next");
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  	showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<footer>
+	<ul class="icons">
+		<li><a href="javascript:void(0)"><i class="ion-social-facebook icon"></i></a></li>
+		<li><a href="javascript:void(0)"><i class="ion-social-instagram icon"></i></a></li>
+		<li><a href="javascript:void(0)"><i class="ion-social-twitter icon"></i></a></li>
+	</ul>
+</footer>
+</body>
+</html>
