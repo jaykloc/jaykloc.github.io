@@ -202,7 +202,7 @@ video {
 /* My Work */
 
 #adobe {
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/adobe.jpg");
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Adobe.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -237,7 +237,7 @@ video {
 }
 
 #webdesign {
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/WebDesign.jpg");
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/WebDesign.JPG");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
