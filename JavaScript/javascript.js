@@ -3,7 +3,7 @@ window.onload = function() {
 	var header = document.querySelector("header");
 	var footer = document.querySelector("footer");
 	var link = document.querySelectorAll(".wrklink");
-	var main = document.getElementById("main")
+	var main = document.getElementById("main");
 
 
 		header.style.height = "70vh";
@@ -14,6 +14,7 @@ window.onload = function() {
 	for(i = 0; i < link.length; i++) {
 		link[i].addEventListener("click", activeBTN); 
 	}
+}
 
 	function activeBTN() {
 		var active = document.getElementsByClassName("active");
@@ -22,7 +23,6 @@ window.onload = function() {
 	}
 
 
-}
 	
 	var tabBtn = document.querySelectorAll(".wrklink");
 
@@ -36,5 +36,6 @@ window.onload = function() {
 		document.getElementById(tabCon).style.display = "block";
 		document.getElementById(tabCon).style.width = "100%";
 	}
+
 
 
