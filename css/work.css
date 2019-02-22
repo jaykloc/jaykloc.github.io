@@ -8,10 +8,7 @@ header {
 	text-transform: uppercase;
 }
 
-div.downloadbtn button {
-	font-size: 200%;
-	width: 10%;
-}
+
 .work {
 	display: none;
 	width: 0;
