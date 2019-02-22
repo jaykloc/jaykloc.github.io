@@ -175,6 +175,11 @@ video {
 	font-weight: 500;
 }
 
+div.downloadbtn button {
+	font-size: 200%;
+	width: 10%;
+}
+
 .HTML{width: 90%; background-color: #50CD1D}
 .CSS{width: 75%; background-color: #1C97CA}
 .JavaScript{width: 50%; background-color: #F01717}
@@ -197,6 +202,11 @@ video {
 #about-me h3 {
 	padding: 10px;
 	font-size: 150%;
+}
+
+#careerPlan {
+	overflow: hidden;
+	width: 50%;
 }
 
 /* My Work */
